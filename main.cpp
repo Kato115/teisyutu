@@ -1,6 +1,7 @@
 
 #include<DxLib.h>
 
+
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR,int) {
 	DxLib::ChangeWindowMode(true);
 	if (DxLib::DxLib_Init()) {
